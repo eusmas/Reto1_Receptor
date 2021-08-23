@@ -114,11 +114,6 @@ void loop() {
   }
 }
 
-
-
-
-
-
 void serialEvent3 ()  {         //evento serial, lee el dato y lo convierte en numero separados
   dato= Serial3.parseInt();
  
@@ -133,6 +128,5 @@ void serialEvent3 ()  {         //evento serial, lee el dato y lo convierte en n
   pos_inicial=pos_actual;
   paso=0;
   }
-
 }
  
