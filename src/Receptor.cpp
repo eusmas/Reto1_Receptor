@@ -52,14 +52,6 @@ void loop() {
   Serial.println(cancelar);
   delay(200);
 
-  //while(inicio==0){
-//  if(inicio==0){
-//    Serial3.print("f");             //envio una f cuando esta quieto
-//    Serial.print("f");              //envio de dato para verificacion de codigo 
-//    delay(500);
-//    }
-  
-
   //_________________________________
   if(cancelar==0 && inicio==1){             //inicio de secuencia
 
@@ -141,11 +133,6 @@ void serialEvent3 ()  {         //evento serial, lee el dato y lo convierte en n
   pos_inicial=pos_actual;
   paso=0;
   }
-
-  //Serial.println(destino);
-  //Serial.println(tiempo);
-  //Serial.println(inicio);
-  //Serial.println(cancelar);
 
 }
  
